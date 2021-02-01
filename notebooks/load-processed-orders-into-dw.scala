@@ -15,7 +15,7 @@ sc.hadoopConfiguration.set(accountInfo, blobAccessKey)
 val dwDatabase = "prepthsynapse"
 val dwServer = "preputhsynapseworkspace.sql.azuresynapse.net"
 val dwUser = "sqladminuser"
-val dwPassword = "xxxxx"
+val dwPassword = "xxxxxxx"
 val dwJdbcPort = "1433"
 val dwUrl = "jdbc:sqlserver://" + dwServer + ":" + dwJdbcPort + ";database=" + dwDatabase + ";user=" + dwUser + ";password=" + dwPassword
 
